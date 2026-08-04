@@ -1,6 +1,18 @@
-# Tampersmonkey-scripts för bevakningsoptmering på bokbörsen
+# Tampersmonkey-scripts för bevakningsoptmering på bokbörsen avsett för HBHB
 
-## Installationslänkar
+## 1. Installera Tampermonkey
+
+Installera först Tampermonkey som webbläsartillägg:
+
+- [Installera Tampermonkey för Chrome](https://www.tampermonkey.net/)
+- [Installera Tampermonkey för Firefox](https://www.tampermonkey.net/)
+- [Installera Tampermonkey för Edge](https://www.tampermonkey.net/)
+
+Efter installationen går du vidare till script-installationerna nedan.
+
+---
+
+## 2. Installera Bokbörsen-script
 
 - [Färgmarkera skick](https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/fargmarkeraskick.user.js)
 
