@@ -1,4 +1,4 @@
-# Tampersmonkey scripts för bevakningsoptmering på Bokbörsen
+# Tampersmonkey-scripts för bevakningsoptmering på bokbörsen
 
 ## Installationslänkar
 
