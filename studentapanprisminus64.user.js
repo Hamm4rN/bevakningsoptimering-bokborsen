@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Studentapan - Pris minus 64
 // @namespace    studentapan
-// @version      3.0
+// @version      1.3
 // @description  Visar originalpris minus 64 och färgar priserna
 // @match        https://www.studentapan.se/*
 // @grant        none
