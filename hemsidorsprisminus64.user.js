@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hemsidors pris minus 64 kr
 // @namespace    hammarn
-// @version      1.1
+// @version      1.2
 // @description  Visar originalpris -64 = nytt pris på flera boksidor
 // @match        https://www.studentapan.se/*
 // @match        https://www.adlibris.com/*
@@ -26,10 +26,10 @@
             if (el.children.length > 0) return;
 
             const text = el.textContent.trim();
-            // Hoppa över överstrukna priser
+
             // Hoppa över överstrukna priser
             const style = window.getComputedStyle(el);
-            
+
             if (
                 style.textDecoration.includes("line-through") ||
                 style.textDecorationLine.includes("line-through") ||
@@ -38,9 +38,17 @@
             ) {
                 return;
             }
-            
-            // Hoppa över priser inom parentes
-            if (/\(\s*\d[\d\s]*\s*kr\s*\)/.test(text)) {
+
+            // Hoppa över priser som ligger inom parentes
+            let omgivandeText = "";
+            let nuvarande = el;
+
+            for (let i = 0; i < 5 && nuvarande; i++) {
+                omgivandeText += " " + nuvarande.textContent;
+                nuvarande = nuvarande.parentElement;
+            }
+
+            if (/\(\s*\d[\d\s]*\s*kr\s*\)/.test(omgivandeText)) {
                 return;
             }
 
