@@ -26,6 +26,10 @@
             if (el.children.length > 0) return;
 
             const text = el.textContent.trim();
+            // Hoppa över priser inom parentes
+            if (/\(\s*\d[\d\s]*\s*kr\s*\)/.test(text)) {
+            return;
+            }
             // Hoppa över överstrukna priser
             const style = window.getComputedStyle(el);
 
