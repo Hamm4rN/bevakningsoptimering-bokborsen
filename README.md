@@ -12,7 +12,7 @@ Efter installationen går du vidare till script-installationerna nedan.
 
 ---
 
-## 2. Installera Bokbörsen-script
+## 2. Installera scripts
 
 - [Färgmarkera skick](https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/fargmarkeraskick.user.js)
 
