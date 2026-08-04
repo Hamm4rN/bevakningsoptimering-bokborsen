@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         lägsta pris som standard
+// @name         Lägsta pris som standard
 // @namespace    bokborsen
-// @version      2.0
+// @version      1.2
 // @description  Sätter lägsta pris som standard men respekterar egna val
 // @match        https://www.bokborsen.se/*
 // @run-at       document-start
