@@ -25,3 +25,5 @@ Efter installationen går du vidare till script-installationerna nedan.
 - [Snabbknapp för att spara](https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/snabbknappforspara.user.js)
 
 - [Ta bort bekräftelser](https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/tabortbekräftelser.user.js)
+
+- [Visa 100 annonser per sida i "Mina annonser"](https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/visar100annonser.user.)
