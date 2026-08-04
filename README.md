@@ -1,24 +1,15 @@
-Installationslänkar:
+# Bokbörsen Toolkit
 
-Färgmarkera skick:
-https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/fargmarkeraskick.user.js
+## Installationslänkar
 
+- [Färgmarkera skick](https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/fargmarkeraskick.user.js)
 
-Lägsta pris som standard:
-https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/lagstaprissomstandard.user.js
+- [Lägsta pris som standard](https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/lagstaprissomstandard.user.js)
 
+- [Markera mina annonser](https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/markeraminaannonser.user.js)
 
-Markera mina annonser:
-https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/markeraminaannonser.user.js
+- [Snabbknapp för att spara](https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/snabbknappforspara.user.js)
 
+- [Studentapan minus 64](https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/studentapanprisminus64.user.js)
 
-Snabbknapp för att spara:
-https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/snabbknappforspara.user.js
-
-
-Studentapan minus 64:
-https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/studentapanprisminus64.user.js
-
-
-Ta bort bekräftelser:
-https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/tabortbekräftelser.user.js
+- [Ta bort bekräftelser](https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/tabortbekräftelser.user.js)
