@@ -26,21 +26,23 @@
             if (el.children.length > 0) return;
 
             const text = el.textContent.trim();
-            // Hoppa över priser inom parentes
-            if (/\(\s*\d[\d\s]*\s*kr\s*\)/.test(text)) {
-            return;
-            }
+            // Hoppa över överstrukna priser
             // Hoppa över överstrukna priser
             const style = window.getComputedStyle(el);
-
+            
             if (
-            style.textDecoration.includes("line-through") ||
-            style.textDecorationLine.includes("line-through") ||
-            el.closest("s") ||
-            el.closest("del")
+                style.textDecoration.includes("line-through") ||
+                style.textDecorationLine.includes("line-through") ||
+                el.closest("s") ||
+                el.closest("del")
             ) {
-            return;
-        }    
+                return;
+            }
+            
+            // Hoppa över priser inom parentes
+            if (/\(\s*\d[\d\s]*\s*kr\s*\)/.test(text)) {
+                return;
+            }
 
             const match = text.match(/^(\d[\d\s]*)\s*kr$/);
 
