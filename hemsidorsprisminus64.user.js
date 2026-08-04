@@ -50,7 +50,7 @@
 
             el.innerHTML = `
                 <span style="color:#d40000;font-weight:bold;">${original}</span>
-                <span style="font-weight:bold;"> - ${AVDRAG} = </span>
+                <span style="color:#000000;font-weight:bold;"> - ${AVDRAG} = </span>
                 <span style="color:#008000;font-weight:bold;">${nytt}</span>
             `;
 
