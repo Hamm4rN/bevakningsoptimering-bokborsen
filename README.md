@@ -1,6 +1,4 @@
-Bokbörsen Toolkit
-
-Installationslänkar.
+Installationslänkar:
 
 Färgmarkera skick:
 https://raw.githubusercontent.com/Hamm4rN/bevakningsoptimering-bokborsen/main/fargmarkeraskick.user.js.user.js
