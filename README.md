@@ -1,4 +1,4 @@
-# Bokbörsen Toolkit
+# Tampersmonkey scripts för bevakningsoptmering på Bokbörsen
 
 ## Installationslänkar
 
