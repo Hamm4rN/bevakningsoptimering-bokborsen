@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         ta bort bekräftelser
+// @name         Ta bort bekräftelser
 // @namespace    bokborsen
 // @version      1.0
 // @match        https://www.bokborsen.se/*
