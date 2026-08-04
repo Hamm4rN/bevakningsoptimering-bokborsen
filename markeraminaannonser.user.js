@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Bokbörsen - Markera mina annonser
+// @name         Markera mina annonser
 // @namespace    bokborsen
 // @version      1.3
 // @match        https://www.bokborsen.se/*
